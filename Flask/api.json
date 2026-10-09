@@ -1,0 +1,55 @@
+{
+    "MAC": {
+        "Name": "R1",
+        "Protocolos": [
+            "OSPF",
+            "STP",
+            "IEGRP"
+        ],
+        "VLANs": {
+            "VL1": {
+                "Ports": [
+                    8080
+                ],
+                "Policies": "Voice",
+                "ET": true,
+                "IP": "192.168.10.68",
+                "SSH": true
+            }
+        },
+        "Status": "Online"
+    },
+    "sdasda": {
+        "Name": "derick",
+        "Protocolos": [
+            "uno",
+            "dos"
+        ],
+        "VLANs": {
+            "asd": {
+                "IP": "0.0.0.1",
+                "Policies": "nah",
+                "Ports": [],
+                "ET": false,
+                "SSH": false
+            }
+        },
+        "Status": "Online"
+    },
+    "postman": {
+        "Name": "hola",
+        "Protocolos": [
+            "asdf"
+        ],
+        "VLANs": {
+            "x": {
+                "IP": "y",
+                "Policies": "z",
+                "Ports": [],
+                "ET": false,
+                "SSH": false
+            }
+        },
+        "Status": "Online"
+    }
+}
